@@ -1,16 +1,69 @@
-# React + Vite
+# 🚀 Online Quiz Application System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+QuizMaster is an interactive online quiz application developed using React and JavaScript. It allows students to participate in quizzes across different programming topics and view their performance instantly.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Student registration with Name, Register Number and Email.
+- Multiple quiz categories: HTML, CSS, JavaScript and Java.
+- Interactive multiple-choice questions.
+- Countdown timer for each question.
+- Automatic question progression when time runs out.
+- Progress bar to track quiz completion.
+- Instant score calculation.
+- Result summary with correct and incorrect answers.
+- Answer review.
+- Leaderboard to display scores.
+- Local storage to save leaderboard data.
 
-## React Compiler
+## 🛠️ Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React.js
+- JavaScript
+- HTML
+- CSS
+- Vite
 
-## Expanding the ESLint configuration
+## ▶️ How to Run the Project
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clone this repository.
+2. Open the project folder in VS Code.
+3. Open the terminal.
+4. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+5. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+6. Open the local URL displayed in the terminal.
+
+## 📂 Project Structure
+
+```text
+src/
+├── auth/
+├── components/
+├── data/
+├── pages/
+├── App.jsx
+├── App.css
+└── index.css
+```
+
+## 🎯 Project Objective
+
+The main objective of QuizMaster is to provide students with a simple and interactive platform to test their programming knowledge, improve their learning experience and evaluate their performance.
+
+## 👩‍💻 Developed By
+
+**HARSHITHA SRI A G**
+
+Department of Electrical and Electronics Engineering
+
+Sri Eswar College of Engineering
